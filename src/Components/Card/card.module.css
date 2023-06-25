@@ -1,0 +1,143 @@
+.card {
+    max-width: 320px;
+    min-height: 216px;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border: 1px solid rgb(19, 80, 201);
+    border-radius: 0.5rem;
+    background-color: #fff;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 1rem;
+    gap: 1rem;
+  }
+  
+  .title {
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    color: rgba(17, 24, 39, 1);
+    text-decoration: none;
+  }
+  
+  .title:hover {
+    text-decoration: underline royalblue;
+  }
+  
+  .name {
+    margin-top: 0.25rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 500;
+    color: rgba(75, 85, 99, 1);
+  }
+  
+  /* .image {
+    display: block;
+    flex-shrink: 0;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 0.5rem;
+    object-fit: cover;
+    background-color: royalblue;
+  } */
+ 
+  .cssbuttonsiobutton {
+    width: 98px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 13px;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(0deg, rgba(20,167,62,1) 0%, rgba(102,247,113,1) 100%);
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+    letter-spacing: 0.05em;
+    border-radius: 20em;
+  }
+  
+  .cssbuttonsiobutton svg {
+    margin-right: 6px;
+  }
+  
+  .cssbuttonsiobutton:hover {
+    box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+  }
+  
+  .cssbuttonsiobutton:active {
+    box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+  }
+  .description {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    word-wrap: break-word;
+    color: rgba(107, 114, 128, 1);
+  }
+  
+  .postinfo {
+    display: flex;
+    grid-gap: 1rem;
+    gap: 1rem;
+  }
+  
+  .cr {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .dt {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+    color: rgba(75, 85, 99, 1);
+  }
+  
+  .dd {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: rgba(107, 114, 128,1);
+  }
+
+  .donesmg {
+    right: 0;
+    bottom: 0;
+    -webkit-animation: shake-horizontal 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite;
+            animation: shake-horizontal 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite;
+  }
+
+  @keyframes shake-horizontal {
+    0%,
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70% {
+      -webkit-transform: translateX(-10px);
+              transform: translateX(-10px);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: translateX(10px);
+              transform: translateX(10px);
+    }
+    80% {
+      -webkit-transform: translateX(8px);
+              transform: translateX(8px);
+    }
+    90% {
+      -webkit-transform: translateX(-8px);
+              transform: translateX(-8px);
+    }
+  }
+  

@@ -1,0 +1,19 @@
+.logo{
+    width: 40px;
+}
+
+.logoname{
+    font-size: 23px;
+}
+
+
+.menuname{
+    font-size: 16px;
+    transition-duration: 0.5s;
+    width: 160px;
+}
+
+.menuname:hover {
+    color: #1763fa;
+    background-color: #e9ecef;
+}
