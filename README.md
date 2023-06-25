@@ -18,6 +18,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 once the project get started you will find the log in page there you have to enter the id and passward
 
+
+<img src="https://github.com/catherineisonline/personal-portfolio/blob/main/public/project-priview.jpg?raw=true"><img/>
 username: "admin"
 passward: "admin"
 
