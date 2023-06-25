@@ -27,6 +27,8 @@ passward: "admin"
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+<img src="https://github.com/MrPrathameshGadhave/Task-Managment-Application/blob/main/public/dashboard.jpg"><img/>
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
